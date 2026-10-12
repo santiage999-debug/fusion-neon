@@ -1,0 +1,15 @@
+All from Wikimedia Commons (trimmed to 1.6s, mono mp3):
+boing: File:Boing raw.ogg (CC BY 4.0)
+meow: File:Meow of a pleading cat.oga (Public domain)
+meow2: File:Meow domestic cat.ogg (GFDL)
+laugh: File:Laugh.wav (CC BY-SA 4.0)
+fart: File:Flatulence d'Aimée.ogg (CC BY-SA 4.0)
+fart2: File:Human fart.wav (CC BY-SA 4.0)
+squeak: File:Rubber Duck Squeaker.ogg (CC BY-SA 4.0)
+cowbell: File:808, cowbell.OGG (CC BY-SA 4.0)
+trainhorn: File:Sound of American Train Horn Nathan Airchime K5LA.ogg (CC BY 4.0)
+horn: File:Pararira v1 - Horn 1 No Mute (D).wav (CC0)
+
+Original voice/FX clips generated for this game with Runway text-to-speech / sound-effect tools (no real meme audio used; parody sound-alikes):
+v_faaa, v_omg, v_67, v_bruh, v_sheesh, v_wth, v_nooo, v_skibidi, v_rizz, v_gg, v_ayo, v_emodmg, v_sus, v_pollo1 (cocorocó, ES), v_pollo2 ("¡Ay, qué pollo tan crack, papá!", ES)
+fx_chicken (cartoon chicken squawk), fx_boom (cinematic bass boom), fx_huhcat (confused cat "huh?"), fx_sus (suspicious synth sting)
