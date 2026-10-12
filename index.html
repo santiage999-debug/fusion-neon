@@ -379,7 +379,7 @@ if(isStandalone())$('bD').classList.add('hide');
 $('bD').onclick=e=>{e.stopPropagation();dlUpd();$('dl').classList.remove('hide')};$('dlX').onclick=()=>$('dl').classList.add('hide');
 $('dl').addEventListener('pointerdown',e=>e.stopPropagation());
 $('dlInst').onclick=async e=>{e.preventDefault();if(!defPrompt)return;defPrompt.prompt();try{const r=await defPrompt.userChoice;if(r.outcome==='accepted')$('bD').classList.add('hide')}catch(err){}defPrompt=null;dlUpd()};
-if('serviceWorker' in navigator&&/^https?:$/.test(location.protocol)&&!window.NL_OS&&!IS_APP)addEventListener('load',()=>navigator.serviceWorker.register('sw.js').catch(()=>{}));
+if('serviceWorker' in navigator&&/^https?:$/.test(location.protocol)&&!window.NL_OS&&!IS_APP){let swReload=false;const hadCtl=!!navigator.serviceWorker.controller;navigator.serviceWorker.addEventListener('controllerchange',()=>{if(swReload||!hadCtl)return;swReload=true;location.reload()});addEventListener('load',()=>navigator.serviceWorker.register('sw.js',{updateViaCache:'none'}).then(r=>{r.update().catch(()=>{});setInterval(()=>r.update().catch(()=>{}),30*60*1000)}).catch(()=>{}))}
 applyQ();
 // INPUT
 function toX(e){const sx=(W-600*S)/2;return(e.clientX-sx)/S}
