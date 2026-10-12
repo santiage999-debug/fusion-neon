@@ -73,20 +73,23 @@ Acciones válidas: `lluvia, gigante, lava, terremoto, gravedad, tema, bomba, fus
 - `#test` activa el modo Auto al cargar.
 
 ## 🌍 Mundos: efectos por mundo
-En los mundos nuevos (menú ☰ → 🌍 Mundos) las mismas teclas/regalos hacen efectos propios de cada mundo. Todos usan la misma cola y tiempos de espera. El panel "Probar regalos" muestra los nombres del mundo activo. **SÚPER LAVA** reinicia el progreso del nivel actual del mundo. Tocar la pantalla también interactúa (dominó: derriba el más cercano · duplicación: suelta una bola · bucles: empuja las bolas · extraño: perturba el patrón).
+En los mundos nuevos (menú ☰ → 🌍 Mundos) las mismas teclas/regalos hacen efectos propios de cada mundo. Todos usan la misma cola y tiempos de espera. El panel "Probar regalos" muestra los nombres del mundo activo. **SÚPER LAVA** reinicia el progreso del nivel actual del mundo. Tocar la pantalla también interactúa (carrera: impulsa la canica más cercana · duplicación: suelta una bola · bucles: empuja las bolas · extraño: perturba el patrón).
 
-| Tecla | Regalo | Dominós | Duplicación al vacío | Bucles | Algo extraño |
+| Tecla | Regalo | Carrera de canicas | Duplicación al vacío | Bucles | Algo extraño |
 |---|---|---|---|---|---|
-| 1 | 🌹 Rosa | 👉 Empujón x3 | 🌧️ Lluvia de bolas | ⚪ +3 bolas | ✨ Chispas |
-| 2 | 🎁 Otros regalos | 🟨 Dominó gigante | ✖️ Puerta x5 | ⭕ Nuevo anillo | 🔀 Siguiente patrón |
-| 3 | 🌌 Perfume / Galaxy | 🔥 Dominós de fuego | 🔥 Portal x3 | 🔥 Bola de fuego | 🔥 Colores fuego |
+| 1 | 🌹 Rosa | 🚀 Impulso | 🌧️ Lluvia de bolas | ⚪ +3 bolas | ✨ Chispas |
+| 2 | 🎁 Otros regalos | 🦣 Canica gigante | ✖️ Puerta x5 | ⭕ Nuevo anillo | 🔀 Siguiente patrón |
+| 3 | 🌌 Perfume / Galaxy | 🛑 Freno a los demás | 🔥 Portal x3 | 🔥 Bola de fuego | 🔥 Colores fuego |
 | 4 | 🫰 Finger Heart | 🌋 Terremoto | 🌋 Sacudida | 🌀 Giro loco | 🌪️ Caos |
-| 5 | 🍩 Doughnut | 🐢 Cámara lenta | 🙃 Antigravedad | 🪐 Sin gravedad | ⏪ Reversa |
-| 6 | 💌 Heart Me | 🎨 Nuevo diseño | 🎨 Nuevo tablero | 🎨 Nuevos colores | 🎨 Paleta nueva |
-| 7 | 🫶 Hand Hearts | 💣 Bomba | 🕳️ Agujero negro | 💥 Romper anillo | 💥 Explosión |
-| 8 | 🎮 GG | ⛓️ Reacción en cadena | ➗ Duplicar todo | 🚪 Hueco gigante | 🎯 Sincronizar |
-| 9 | 🍦 Ice Cream | 🧊 Congelar | 🧊 Congelar | 🧊 Congelar anillos | 🧊 Congelar |
-| 0 | 🎵 TikTok | 🌈 Arcoíris | 🟡 Bola dorada x10 | 🔴 Bola gigante | ⚡ Turbo |
-| - | 🦁 Lion / Universe | 🌋 SÚPER LAVA: reinicia nivel | 🌋 SÚPER LAVA: reinicia nivel | 🌋 SÚPER LAVA: reinicia nivel | 🌋 SÚPER LAVA: reinicia nivel |
+| 5 | 🍩 Doughnut | 🦘 Salto | 🙃 Antigravedad | 🪐 Sin gravedad | ⏪ Reversa |
+| 6 | 💌 Heart Me | 🌀 Teletransporte | 🎨 Nuevo tablero | 🎨 Nuevos colores | 🎨 Paleta nueva |
+| 7 | 🫶 Hand Hearts | ⚡ Rayo al líder | 🕳️ Agujero negro | 💥 Romper anillo | 💥 Explosión |
+| 8 | 🎮 GG | 🧲 Imán | ➗ Duplicar todo | 🚪 Hueco gigante | 🎯 Sincronizar |
+| 9 | 🍦 Ice Cream | 🛡️ Escudo | 🧊 Congelar | 🧊 Congelar anillos | 🧊 Congelar |
+| 0 | 🎵 TikTok | 🎲 Poder sorpresa | 🟡 Bola dorada x10 | 🔴 Bola gigante | ⚡ Turbo |
+| - | 🦁 Lion / Universe | 🌋 SÚPER LAVA: reinicia carrera | 🌋 SÚPER LAVA: reinicia nivel | 🌋 SÚPER LAVA: reinicia nivel | 🌋 SÚPER LAVA: reinicia nivel |
 
 Cada mundo tiene niveles casi infinitos: puntos propios, meta que crece en cada nivel y variaciones (diseños, colores, velocidades, obstáculos, número de anillos). El progreso se guarda en el dispositivo.
+
+## 🏁 Carrera de canicas (3D)
+Cada espectador que entra, comenta o da like (eventos de TikFinity: member/join, chat, like) recibe una canica con su **@usuario** encima y una cara de meme *Italian brainrot*. Sin directo se rellena con canicas bot. Cada carrera dura ~45 s; al final hay podio con los 3 primeros (@usuario + cara), cuenta atrás y una nueva pista más larga/difícil. Los regalos dan el poder **a la canica de quien lo envía** (si aún no tiene, se crea). Para que funcione el modo canica-por-espectador usa la URL con `?tikfinity=1`.
