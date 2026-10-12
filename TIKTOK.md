@@ -71,3 +71,22 @@ Acciones válidas: `lluvia, gigante, lava, terremoto, gravedad, tema, bomba, fus
 ## Otros parámetros
 - `?level=N` empieza en el nivel N. Cada nivel combina tema, física (luna, agua, hielo, viento, imán, giratorio…), forma del recipiente y obstáculos.
 - `#test` activa el modo Auto al cargar.
+
+## 🌍 Mundos: efectos por mundo
+En los mundos nuevos (menú ☰ → 🌍 Mundos) las mismas teclas/regalos hacen efectos propios de cada mundo. Todos usan la misma cola y tiempos de espera. El panel "Probar regalos" muestra los nombres del mundo activo. **SÚPER LAVA** reinicia el progreso del nivel actual del mundo. Tocar la pantalla también interactúa (dominó: derriba el más cercano · duplicación: suelta una bola · bucles: empuja las bolas · extraño: perturba el patrón).
+
+| Tecla | Regalo | Dominós | Duplicación al vacío | Bucles | Algo extraño |
+|---|---|---|---|---|---|
+| 1 | 🌹 Rosa | 👉 Empujón x3 | 🌧️ Lluvia de bolas | ⚪ +3 bolas | ✨ Chispas |
+| 2 | 🎁 Otros regalos | 🟨 Dominó gigante | ✖️ Puerta x5 | ⭕ Nuevo anillo | 🔀 Siguiente patrón |
+| 3 | 🌌 Perfume / Galaxy | 🔥 Dominós de fuego | 🔥 Portal x3 | 🔥 Bola de fuego | 🔥 Colores fuego |
+| 4 | 🫰 Finger Heart | 🌋 Terremoto | 🌋 Sacudida | 🌀 Giro loco | 🌪️ Caos |
+| 5 | 🍩 Doughnut | 🐢 Cámara lenta | 🙃 Antigravedad | 🪐 Sin gravedad | ⏪ Reversa |
+| 6 | 💌 Heart Me | 🎨 Nuevo diseño | 🎨 Nuevo tablero | 🎨 Nuevos colores | 🎨 Paleta nueva |
+| 7 | 🫶 Hand Hearts | 💣 Bomba | 🕳️ Agujero negro | 💥 Romper anillo | 💥 Explosión |
+| 8 | 🎮 GG | ⛓️ Reacción en cadena | ➗ Duplicar todo | 🚪 Hueco gigante | 🎯 Sincronizar |
+| 9 | 🍦 Ice Cream | 🧊 Congelar | 🧊 Congelar | 🧊 Congelar anillos | 🧊 Congelar |
+| 0 | 🎵 TikTok | 🌈 Arcoíris | 🟡 Bola dorada x10 | 🔴 Bola gigante | ⚡ Turbo |
+| - | 🦁 Lion / Universe | 🌋 SÚPER LAVA: reinicia nivel | 🌋 SÚPER LAVA: reinicia nivel | 🌋 SÚPER LAVA: reinicia nivel | 🌋 SÚPER LAVA: reinicia nivel |
+
+Cada mundo tiene niveles casi infinitos: puntos propios, meta que crece en cada nivel y variaciones (diseños, colores, velocidades, obstáculos, número de anillos). El progreso se guarda en el dispositivo.
